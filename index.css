@@ -1,0 +1,67 @@
+.drag{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin:auto ;
+    margin-top: -30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .container div {
+    width: 100px;
+    height: 30px;
+    background-color: #ddd;
+    margin: 5px;
+    text-align: center;
+    line-height: 30px;
+    cursor: move;
+    font-family: sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+
+  }
+  #todo{
+    background-color: rgb(42, 42, 221);
+    
+  }
+  #working{
+    background-color: rgb(200, 95, 42);
+    
+  }
+  #done{
+    background-color: rgb(26, 128, 0);
+     
+  }
+
+  #head{
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  #head div{
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    line-height: 30px;
+    cursor: move;
+    font-family: sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  #main{
+    width:350px;
+    border: 1px solid rgb(87, 82, 82);
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+  }
